@@ -18,3 +18,15 @@ if '@' in email:
 else:
     print("Invalid email")
     
+# WHILE LOOPS
+
+# Where are loops used?
+#loops are basically used (irl) to repeat a task multiple times without writing the same code again and again.
+# for e.g : in a website there are different products shown on the home page, like the list of smartphones, laptops, etc.
+# so, the display of the contents of each product are in a certain way which we can call containers, and we can use loops to display the contents of each container.
+i = 1
+n = int(input("Enter a number: "))
+while (i<11):
+    print(n, "x", i, "=", n*i)
+    i +=1
+
