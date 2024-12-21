@@ -47,3 +47,36 @@ while n != j:
     
 print("You guessed it right!")
 print("You took",counter,"Attempts")
+
+# FOR LOOPS
+
+# range function
+print(list(range(1,11)))
+print(list(range(15)))
+print(list(range(1,11,3)))
+print(list(range(10,0,-1)))
+
+# sequence :
+# a sequence is a thing which is given to you in order like string which is a sequence of characters and 
+# then comes the lists,tuples and dictionaries which are the list of words.
+
+# So it is stated that range and iterate over a given range or a sequence
+
+for i in range(1,11):
+    print(i)
+    
+for i in "Rohtak":
+    print(i)
+    
+for i in [1,2,4,5]: # for loop on lists
+    print(i)
+
+for i in (1,2,4,5): # for loop on tuples
+    print(i)
+    
+for i in {1,2,4,5}: # for loop on sets
+    print(i)
+
+# when to use while and when to use for loop?
+# while -> when number of iteration is unknown like in the random number guessing game.
+# for -> when the number of iterations are known and you know that after how many iterations the loop will terminate
