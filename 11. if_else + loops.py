@@ -30,3 +30,20 @@ while (i<11):
     print(n, "x", i, "=", n*i)
     i +=1
 
+# GUESSING GAME PROGRAM
+
+import random
+
+j = random.randint(1, 100)
+n = int(input("Guess a number between 1 and 100: "))
+counter = 1
+while n != j:
+    if n < j:
+        print("Too low")
+    else:
+        print("Too high")
+    n = int(input("Guess again: "))
+    counter += 1
+    
+print("You guessed it right!")
+print("You took",counter,"Attempts")
