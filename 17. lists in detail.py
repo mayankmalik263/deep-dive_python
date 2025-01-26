@@ -156,8 +156,8 @@ print(max(L))
 print(sorted(L))
 print(sorted(L,reverse=True)) # this is not a permanent in the main list the main list 'L' still remain the same not reversed
 
-sort = L.sort() # this is a permanent operation
-print(sort)
+L.sort() # this is a permanent operation
+print(L)
 
 index = L.index(3) # this will print the index of the number you put in it
 print(index)
