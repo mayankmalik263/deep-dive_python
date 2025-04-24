@@ -11,7 +11,7 @@ functions
 '''
 
 # array v list
-# 1. arrays -> homogenous lists -> heterogenous
+# 1. arrays -> homogenous, lists -> heterogenous
 # 2. arrays mein continuously cheeze stored hoti h where as list mein different places pe stored hoti h cheeze
 # 3. arrays are much faster
 # 4. lists are more programmer friendly but slow
