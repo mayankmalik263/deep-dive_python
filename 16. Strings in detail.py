@@ -35,7 +35,7 @@ print(c[:4]) # this means that i want everything till 4-1=3
 print(c[:]) # well this gives you the whole string
 
 print(c[2:6:2]) # will start from 2nd => l then go to 4 as the step is 2 => o and then as 6 is exclusive we can't got any further so it will end 
-print(c[0:8:3])
+print(c[0:8:3]) 
 
 print(c[0:6:-1]) # this output i guess is : dlroW | Okay so this wrong because when you are working with +ve string so step can't be -ve
 
